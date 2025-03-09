@@ -1,0 +1,32 @@
+Vagrant.configure("2") do |config|
+  master_ips = File.readlines("master_ips.txt").map(&:strip)
+  worker_ips = File.readlines("worker_ips.txt").map(&:strip)
+
+  master_ips.each do |ip|
+    fourth_octet = ip.split('.').last
+    config.vm.define "production-master-ubuntu-#{fourth_octet}" do |master|
+      master.vm.box = "generic/ubuntu2204"
+      master.vm.network "private_network", ip: ip
+      master.vm.disk :disk, size: "25GB", primary: true
+      master.vm.provider "vmware_desktop" do |v|
+        v.gui = true
+        v.memory = 2048
+        v.cpus = 2
+      end
+    end
+  end
+
+  worker_ips.each do |ip|
+    fourth_octet = ip.split('.').last
+    config.vm.define "production-worker-ubuntu-#{fourth_octet}" do |worker|
+      worker.vm.box = "generic/ubuntu2204"
+      worker.vm.network "private_network", ip: ip
+      worker.vm.disk :disk, size: "25GB", primary: true
+      worker.vm.provider "vmware_desktop" do |v|
+        v.gui = true
+        v.memory = 2048
+        v.cpus = 2
+      end
+    end
+  end
+end

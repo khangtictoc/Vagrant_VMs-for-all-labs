@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDMExport>
+  <Connections>
+    <Connection>
+      <ConnectionType>Group</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>93731354-23b4-4144-93af-19e00b086bb3</ID>
+      <Name>1. Personal Local Project</Name>
+      <TemplateSourceID>767f20dc-0616-4a7a-a734-cb960e59c13c</TemplateSourceID>
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>33b3b656-43ed-4d0c-b001-26a0db545db6</ID>
+      <Name>production-master-ubuntu-121</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.121</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>fbe433a4-381f-4513-ae3e-77bcdf7adb8c</ID>
+      <Name>production-master-ubuntu-122</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.122</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>6e96f5b0-dfa8-4d63-bae1-cc65510d7aef</ID>
+      <Name>production-master-ubuntu-123</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.123</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>4102b401-bb26-480b-8dd4-880a6782f588</ID>
+      <Name>production-master-ubuntu-124</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.124</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>ca992e76-0894-45f4-b542-5cfbde7c7384</ID>
+      <Name>production-master-ubuntu-125</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.125</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+    <Connection>
+      <ConnectionType>SSHShell</ConnectionType>
+      <Group>1. Personal Local Project</Group>
+      <ID>e7f44d91-acb2-4a4c-a940-b8c569fe0668</ID>
+      <Name>production-worker-ubuntu-126</Name>
+      <OpenEmbedded>true</OpenEmbedded>
+      <Terminal>
+        <Host>192.168.8.126</Host>
+        <PrivateKeyPromptForPassPhrase>false</PrivateKeyPromptForPassPhrase>
+      </Terminal>
+      <TerminalMac />
+    </Connection>
+  </Connections>
+  <DatabaseID>a96ed94b-f783-4716-bc7f-275f70229d5b</DatabaseID>
+  <Version>2</Version>
+</RDMExport>
